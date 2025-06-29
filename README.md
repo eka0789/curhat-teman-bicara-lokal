@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
+# 🧠💬 Curhat Teman Bicara Lokal
 
-## Project info
+Curhat Teman Bicara Lokal adalah prototipe web app yang dirancang sebagai **ruang aman** untuk berbagi cerita secara anonim, saling memberi dukungan, dan menjaga kesehatan mental bersama. Dengan tampilan yang bersih dan fokus pada kenyamanan emosional, aplikasi ini menjadi sarana refleksi, pelampiasan, dan interaksi positif antar pengguna.
 
-**URL**: https://lovable.dev/projects/f1aa5ecd-382d-45c1-9507-fc689b7ab192
+🔗 **Live Demo**: [curhat-teman-bicara-lokal.lovable.app](https://curhat-teman-bicara-lokal.lovable.app)
 
-## How can I edit this code?
+📦 **Git Clone**:
+```bash
+git clone https://github.com/eka0789/curhat-teman-bicara-lokal.git
+````
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Fitur Utama
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f1aa5ecd-382d-45c1-9507-fc689b7ab192) and start prompting.
+* ✅ Berbagi cerita secara **anonim & aman**
+* 💬 Sistem **listening post** untuk membaca curhatan orang lain
+* ❤️ Tampilan bersih dan fokus pada kenyamanan pengguna
+* 📱 Responsif di berbagai ukuran layar
+* 💡 Didesain untuk mendukung kesejahteraan mental dan emosional
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 Cara Menjalankan
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 🔧 Clone dan Masuk ke Folder
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+git clone https://github.com/eka0789/curhat-teman-bicara-lokal.git
+cd curhat-teman-bicara-lokal
 ```
 
-**Edit a file directly in GitHub**
+### 📦 Install Dependensi
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```bash
+npm install
+# atau
+yarn install
+```
 
-**Use GitHub Codespaces**
+### ▶️ Jalankan Aplikasi
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run dev
+# atau
+yarn dev
+```
 
-## What technologies are used for this project?
+Aplikasi akan berjalan di `http://localhost:3000`
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 🛠️ Teknologi yang Digunakan
 
-## How can I deploy this project?
+* React.js
+* Tailwind CSS
+* Vite (atau Next.js/Vue jika digunakan)
+* LocalStorage / mock API (jika tidak menggunakan backend)
 
-Simply open [Lovable](https://lovable.dev/projects/f1aa5ecd-382d-45c1-9507-fc689b7ab192) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 📄 Lisensi
 
-Yes, you can!
+MIT License © 2025 [Eka Prasetyo](https://github.com/eka0789)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🤝 Kontribusi
+
+Kontribusi terbuka untuk perbaikan desain, sistem feedback anonim, integrasi backend (Firebase/API), dan keamanan privasi pengguna.
