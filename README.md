@@ -4,13 +4,6 @@ Curhat Teman Bicara Lokal adalah prototipe web app yang dirancang sebagai **ruan
 
 🔗 **Live Demo**: [curhat-teman-bicara-lokal.lovable.app](https://curhat-teman-bicara-lokal.lovable.app)
 
-📦 **Git Clone**:
-```bash
-git clone https://github.com/eka0789/curhat-teman-bicara-lokal.git
-````
-
----
-
 ## ✨ Fitur Utama
 
 * ✅ Berbagi cerita secara **anonim & aman**
